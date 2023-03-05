@@ -5,4 +5,20 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  font-family: "Shantell Sans", cursive;
+}
+/* Content */
+.container {
+  width: 80%;
+  margin: auto;
+}
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
 }
